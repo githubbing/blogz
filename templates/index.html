@@ -3,7 +3,7 @@
 <center><h1>Blog Page</h1></center>
     {% for blog in blogs %}
     <ul>
-        <h2><a href='/blog_post?id={{id}}'>{{ blog.title }}</a></h2>
+        <h2><a href='/blog_post?id={{ blog.id }}'>{{ blog.title }}</a></h2>
         <p>{{ blog.body }}</p>
         <hr/>
     </ul>
